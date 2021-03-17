@@ -1,6 +1,5 @@
 import * as React from "react";
 import TextField from "@material-ui/core/TextField";
-import Checkbox from "@material-ui/core/Checkbox";
 import Select from "@material-ui/core/Select";
 import MenuItem from "@material-ui/core/MenuItem";
 import FormControl from "@material-ui/core/FormControl";
@@ -63,7 +62,7 @@ class MTableEditField extends React.Component {
           <FormControlLabel
             label=""
             control={
-              <Checkbox
+              <this.props.components.Checkbox
                 {...props}
                 value={String(this.props.value)}
                 checked={Boolean(this.props.value)}

@@ -509,7 +509,7 @@ class App extends Component {
                     headerSelectionProps: {
                       color: "primary",
                     },
-                    selection: false,
+                    selection: true,
                     selectionProps: (rowData) => {
                       rowData.tableData.disabled = rowData.name === "A1";
 
