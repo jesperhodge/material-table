@@ -1,4 +1,8 @@
-> :warning: Please do not create pull requests that contains a lot of change. Because we are working on refactoring and testing. Just pull requests that fixes a bug with a few line changes.
+## Fork of mbrn/material-table
+
+## Last updated: 03-17-2021
+
+This should be updated monthly, but always check the date above. If I forget, just open an issue for me.
 
 <br/>
 <br/>
