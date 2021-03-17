@@ -90,6 +90,7 @@ export const defaultProps = {
     Pagination: TablePagination,
     Row: MComponents.MTableBodyRow,
     Toolbar: MComponents.MTableToolbar,
+    Checkbox: MComponents.MTableCheckbox,
   },
   data: [],
   icons: {

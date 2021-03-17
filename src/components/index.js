@@ -13,12 +13,14 @@ import MTableHeader from "./m-table-header";
 import MTablePagination from "./m-table-pagination";
 import MTableSteppedPagination from "./m-table-stepped-pagination";
 import MTableToolbar from "./m-table-toolbar";
+import MTableCheckbox from "./m-table-checkbox";
 
 export {
   MTableAction,
   MTableActions,
   MTableBody,
   MTableBodyRow,
+  MTableCheckbox,
   MTableGroupbar,
   MTableGroupRow,
   MTableCell,

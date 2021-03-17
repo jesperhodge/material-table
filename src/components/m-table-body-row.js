@@ -1,5 +1,4 @@
 /* eslint-disable no-unused-vars */
-import Checkbox from "@material-ui/core/Checkbox";
 import TableCell from "@material-ui/core/TableCell";
 import TableRow from "@material-ui/core/TableRow";
 import IconButton from "@material-ui/core/IconButton";
@@ -134,7 +133,7 @@ export default class MTableBodyRow extends React.Component {
         key="key-selection-column"
         style={{ width: selectionWidth }}
       >
-        <Checkbox
+        <this.props.components.Checkbox
           size={size}
           checked={this.props.data.tableData.checked === true}
           onClick={(e) => e.stopPropagation()}
