@@ -866,6 +866,7 @@ export default class MaterialTable extends React.Component {
           options={props.options}
           onColumnResized={this.onColumnResized}
           scrollWidth={this.state.width}
+          components={props.components}
         />
       )}
       <props.components.Body

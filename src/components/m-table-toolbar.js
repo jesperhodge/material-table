@@ -1,5 +1,4 @@
 /* eslint-disable no-unused-vars */
-import Checkbox from "@material-ui/core/Checkbox";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import IconButton from "@material-ui/core/IconButton";
 import InputAdornment from "@material-ui/core/InputAdornment";
@@ -219,7 +218,7 @@ export class MTableToolbar extends React.Component {
                         htmlFor={`column-toggle-${col.tableData.id}`}
                         disabled={col.removable === false}
                       >
-                        <Checkbox
+                        <this.props.components.Checkbox
                           checked={!col.hidden}
                           id={`column-toggle-${col.tableData.id}`}
                           onChange={() =>

@@ -9,7 +9,6 @@ import Select from "@material-ui/core/Select";
 import Input from "@material-ui/core/Input";
 import InputLabel from "@material-ui/core/InputLabel";
 import MenuItem from "@material-ui/core/MenuItem";
-import Checkbox from "@material-ui/core/Checkbox";
 import ListItemText from "@material-ui/core/ListItemText";
 import InputAdornment from "@material-ui/core/InputAdornment";
 import Icon from "@material-ui/core/Icon";
@@ -89,7 +88,9 @@ class MTableFilterRow extends React.Component {
         >
           {Object.keys(columnDef.lookup).map((key) => (
             <MenuItem key={key} value={key}>
-              <Checkbox checked={selectedFilter.indexOf(key.toString()) > -1} />
+              <this.props.components.Checkbox
+                checked={selectedFilter.indexOf(key.toString()) > -1}
+              />
               <ListItemText primary={columnDef.lookup[key]} />
             </MenuItem>
           ))}
@@ -105,7 +106,7 @@ class MTableFilterRow extends React.Component {
     });
 
   renderBooleanFilter = (columnDef) => (
-    <Checkbox
+    <this.props.components.Checkbox
       indeterminate={columnDef.tableData.filterValue === undefined}
       checked={columnDef.tableData.filterValue === "checked"}
       onChange={() => {

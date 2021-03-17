@@ -5,7 +5,6 @@ import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import TableCell from "@material-ui/core/TableCell";
 import TableSortLabel from "@material-ui/core/TableSortLabel";
-import Checkbox from "@material-ui/core/Checkbox";
 import withStyles from "@material-ui/core/styles/withStyles";
 import { Draggable } from "react-beautiful-dnd";
 import { Tooltip } from "@material-ui/core";
@@ -255,7 +254,7 @@ export class MTableHeader extends React.Component {
         style={{ ...this.props.headerStyle, width: selectionWidth }}
       >
         {this.props.showSelectAllCheckbox && (
-          <Checkbox
+          <this.props.components.Checkbox
             indeterminate={
               this.props.selectedCount > 0 &&
               this.props.selectedCount < this.props.dataCount
