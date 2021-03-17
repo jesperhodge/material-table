@@ -1,6 +1,6 @@
 {
     "name": "material-table-optimized",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Fork from mbrn material-table with extra customization options and performance improvements. Updated from mbrn regularly.",
     "main": "dist/index.js",
     "types": "types/index.d.ts",
