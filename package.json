@@ -1,7 +1,7 @@
 {
-  "name": "material-table",
-  "version": "1.69.2",
-  "description": "Datatable for React based on https://material-ui.com/api/table/ with additional features",
+  "name": "material-table-optimized",
+  "version": "0.1",
+  "description": "Fork from mbrn material-table with extra customization options and performance improvements. Updated from mbrn regularly.",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
   "files": [
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mbrn/material-table.git"
+    "url": "git+https://github.com/jesperhodge/material-table-optimized.git"
   },
   "keywords": [
     "react",
@@ -39,9 +39,9 @@
   "author": "Mehmet Baran",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mbrn/material-table/issues"
+    "url": "https://github.com/jesperhodge/material-table-optimized/issues"
   },
-  "homepage": "https://github.com/mbrn/material-table#readme",
+  "homepage": "https://github.com/jesperhodge/material-table-optimized#readme",
   "devDependencies": {
     "@babel/cli": "7.1.2",
     "@babel/core": "7.4.4",
