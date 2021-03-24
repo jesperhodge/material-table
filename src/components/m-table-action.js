@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import * as React from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import Icon from "@material-ui/core/Icon";
 import IconButton from "@material-ui/core/IconButton";
