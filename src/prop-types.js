@@ -99,6 +99,11 @@ export const propTypes = {
       PropTypes.func,
       StyledComponent,
     ]),
+    Checkbox: PropTypes.oneOfType([
+      PropTypes.element,
+      PropTypes.func,
+      StyledComponent,
+    ]),
     Cell: PropTypes.oneOfType([
       PropTypes.element,
       PropTypes.func,
